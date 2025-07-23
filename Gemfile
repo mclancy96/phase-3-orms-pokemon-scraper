@@ -5,10 +5,12 @@ source "https://rubygems.org"
 gem 'nokogiri'
 
 # Database
-gem 'sqlite3', '~>1.3.6'
+gem 'sqlite3'
 
 # Testing
 gem 'rspec', '>= 3.0'
 
 # Debugging
 gem 'pry'
+
+gem 'rubocop'
